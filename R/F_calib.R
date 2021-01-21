@@ -7,6 +7,8 @@
 #'
 #' @param conc desc
 #' @param OD desc
+#'
+#' @export
 calib <- function(conc, OD){
 
   tmp <- data.frame(conc,OD)
